@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pont_de_Brooklyn_de_nuit_-_Octobre_2008_edit.jpg/1280px-Pont_de_Brooklyn_de_nuit_-_Octobre_2008_edit.jpg');
+      background-size: stretch;
+      color: white;
+    }
+    a {
+      color: teal;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    img {
+      margin: 0px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      background-size: 500px;
+    }
+    ul {
+      padding: 10px;
+      background: black;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+        color: green;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/23130810_10159502546930023_2548678820244777026_n.jpg?_nc_cat=105&_nc_ht=scontent-ort2-2.xx&oh=c421f09dc1e10e5a446add7e29e89af3&oe=5CBC0494" height="200px" width="200px">
+    <h1>Justin's first page</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Personal Life</a></li>
+      <li><a href="#">Work Life</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About Me</h2>
+    <p>I have been a New York native my entire life. I have spent 13 years in the US Air Force, where I have met some great people, and have explored the world. I eventually want to start work at a tech company where I can develop my coding skills and gain expierience as a web developer.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Personal Life</h2>
+    <p>I am the youngest of 3 brothers. I was born and raised on the South Shore of Long Island, New York. I currently reside in Upstate New York, where I currently work for the US Air Force and a Tactical Air Controller. I have been all over the world, from mulitple European countries, Middle Eastern Countries, and all over our great country. I eventually want to start traveling to South America, and then New Zealand and Australia.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Work Life</h2>
+    <p>I work on Fort Drum Army Installation in Watertown, New York. I am the Chief of Scheduling, and currently hold a certifiation in Joint Terminal Attack Controlling. The job is forever growing and I learn new things every day. When I am not learning myself, I help to train incoming personnel on the job and developing their skills.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
