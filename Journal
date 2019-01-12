@@ -6,7 +6,7 @@
       text-align: center;
       background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Pont_de_Brooklyn_de_nuit_-_Octobre_2008_edit.jpg/1280px-Pont_de_Brooklyn_de_nuit_-_Octobre_2008_edit.jpg');
       background-size: stretch;
-      color: white;
+      color: teal;
     }
     a {
       color: teal;
